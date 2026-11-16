@@ -4,7 +4,7 @@
 
 A small Swift library that classifies a pull request by the paths it touches, decides how many human approvals it needs, refuses to let an agent's approval fill a human slot, caps AI review loops, and builds focused reviewer prompts. It translates the policy in Anthropic's [How the Claude Code team does code review](https://claude.dev/blog/solving-code-review-at-anthropic/) (15 Oct 2026) into iOS terms.
 
-Article: MEDIUM_URL
+Article: [AI Code Review Can Merge Copy Changes With Zero Humans. On iOS, Some Copy Gets You Rejected.](https://medium.com/@er.rajatlakhina/ai-code-review-can-merge-copy-changes-with-zero-humans-on-ios-some-copy-gets-you-rejected-3c31e2e05b74)
 
 <p align="center">
   <img src="Demo/Screenshots/changes.png" width="200" alt="Demo on an iPhone 18 Pro simulator: the Review tiers list. Fix a typo in onboarding copy is LOW and merges on green; Reword the camera permission prompt and Translate the camera prompt into French are MEDIUM with 1 human; Add the SwiftData V3 schema migration is HIGH with 2 humans. The last row is partly behind the tab bar.">
